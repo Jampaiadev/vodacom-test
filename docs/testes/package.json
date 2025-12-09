@@ -1,0 +1,19 @@
+{
+  "name": "api-test-framework",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:report": "jest --coverage --reporters=default --reporters=jest-html-reporter",
+    "test:security": "jest security.test.js"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^3.10.2",
+    "jsonwebtoken": "^9.0.2",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
